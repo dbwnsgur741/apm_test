@@ -4,8 +4,15 @@
   2. Test In Ubuntu version ( 20.04 )
   3. Install docker-compose packages
   
-  ```
- $ git clone https://github.com/dbwnsgur741/apm_test/
- $ docker-compose up -d   
-  ```
+```
+$ git clone https://github.com/dbwnsgur741/apm_test/
+$ docker-compose up -d   
+
+```
  
+# Run mysql client:
+
+```
+docker-compse exec db mysql -u root -p
+
+```
